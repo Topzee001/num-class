@@ -103,7 +103,7 @@ curl "http://localhost:8000/api/classify-number?number=45"
 ## Deployment
 The API has been deployed to a publicly accessible endpoint:
 
-linl: 
+link: https://num-class-seven.vercel.app/api/classify-number?number=371
 
 ## Contributing
 Contributions are welcome! If you'd like to improve the project:
