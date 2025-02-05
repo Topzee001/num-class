@@ -11,6 +11,7 @@ app.use(express.json());
 
 //route
 app.use("/", numberRouter);
-app.use("/api/classify-number", numberRouter);
+// app.use("/api/classify-number", numberRouter);
+app.use("/classify-number", numberRouter);
 
 module.exports = app;
