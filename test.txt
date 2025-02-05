@@ -3,3 +3,7 @@ GET http://localhost:8000/api/classify-number?number=10
    "redirects": [
         {"source":"/api/classify-number?number=371", "destination": "app.js" , "permanent": true}
     ],
+
+     "redirects": [
+        {"source":"/", "destination": "/api/classify-number?number=371" , "permanent": true}
+    ]
