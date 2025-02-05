@@ -7,7 +7,7 @@
       }
     ],
     "redirects": [
-        {"source":"/(.*)", "destination": "/api/classify-number?number=371" , "permanent": true}
+        {"source":"/", "destination": "/api/classify-number?number=371" , "permanent": true}
     ]
   }
   
