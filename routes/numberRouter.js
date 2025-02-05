@@ -4,7 +4,6 @@ const router = express.Router();
 
 router.route("/").get(numberController.getWelcome);
 
-router.route("/api/classify-number").get(numberController.getWelcome);
-// router.route("/api/classify-number").get(numberController.getNumberClass);
+router.route("/api/classify-number").get(numberController.getNumberClass);
 
 module.exports = router;
