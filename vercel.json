@@ -7,8 +7,17 @@
       }
     ],
     "redirects": [
-        {"source":"/", "destination": "/api/classify-number?number=371", "permanent": true}
+        {"source":"/api/classify-number?number=371", "destination": "app.js" , "permanent": true}
+    ],
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "app.js"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "app.js"
+      }
     ]
-   
   }
   
