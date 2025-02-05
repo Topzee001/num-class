@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 //route
-app.use("/", numberRouter);
+// app.use("/", numberRouter);
 app.use("/api/classify-number", numberRouter);
 // app.use("/classify-number", numberRouter);
 
